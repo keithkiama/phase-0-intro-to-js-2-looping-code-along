@@ -23,6 +23,7 @@
 
 
 const friends = ["Nicole", "Allan", "Miles"];
+const event =["Birthday"]
 const messages=[];
 
 function writeCards(friends, event){
