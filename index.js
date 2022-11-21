@@ -22,12 +22,12 @@
 //assignment
 
 
-const names = ["Nicole", "Allan", "Miles"];
+const friends = ["Nicole", "Allan", "Miles"];
 const messages=[];
 
-function writeCards(names, event){
-    for(let i = 0; i < names.length; i++) {
-        const card = `Thank you, ${names[i]}, for the wonderful ${event} gift!`;
+function writeCards(friends, event){
+    for(let i = 0; i < friends.length; i++) {
+        const card = `Thank you, ${friends[i]}, for the wonderful ${event} gift!`;
         messages.push(card);
         
     }
