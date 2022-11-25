@@ -20,7 +20,7 @@
 //assignment
 
 const friends = ["Nicole", "Allan", "Miles"];
-const event =["Baby Shower"]
+const occasion =["Baby Shower"]
 const messages=[];
 
 function writeCards(friends, occasion){
@@ -31,6 +31,7 @@ function writeCards(friends, occasion){
     }
     return messages;
 }
+
 
 function countDown(a){
     while (a >= 0) {
