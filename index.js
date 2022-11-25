@@ -5,39 +5,36 @@
 //     console.log(`I'm ${age} years old. Happy birthday to me!`);
 // }
 
-// //for loop with arrays
+//for loop with arrays
 // const gifts = ["teddy bear", "drone", "doll"];
 
 // function wrapGifts(gifts) {
 //   for (let i = 0; i < gifts.length; i++) {
-//     console.log(`Wrapped ${gifts[i]} and added a bow!`);
-//     debugger;
-//   }
+//     console.log(`I Wrapped ${gifts[i]} and added a bow!`);
 
+//   }
 //   return gifts;
 // }
-
 // wrapGifts(gifts);
 
 //assignment
 
-
 const friends = ["Nicole", "Allan", "Miles"];
-const event =["Birthday"]
+const event =["Baby Shower"]
 const messages=[];
 
-function writeCards(friends, event){
+function writeCards(friends, occasion){
     for(let i = 0; i < friends.length; i++) {
-        const card = `Thank you, ${friends[i]}, for the wonderful ${event} gift!`;
+        const card = (`Thank you, ${friends[i]}, for the wonderful ${occasion} gift!`);
         messages.push(card);
         
     }
     return messages;
 }
 
-function countDown(i){
-    while (i >= 0) {
-        console.log(i);
-        i--
+function countDown(a){
+    while (a >= 0) {
+        console.log(a);
+        a--
     }
 }
